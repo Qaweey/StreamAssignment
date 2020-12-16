@@ -19,8 +19,9 @@ namespace assignment2
                
             {
                 count++;
-                Console.WriteLine("Please write activity"+count );
+                Console.WriteLine("Please write activity at"+ DateTime.Now );
                 string topic = Console.ReadLine();
+                Thread.Sleep(5000);
                
                 list.Add(topic);
 

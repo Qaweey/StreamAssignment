@@ -17,7 +17,7 @@ namespace StreamAssignment
                 
                  Console.WriteLine("Please write the topic you want to talk about ");
              string topic=Console.ReadLine();
-            File.AppendAllText(path, "<h1>" + topic + "<h1>");
+            File.AppendAllText(path, "<h1 style='text-align:center;background-color:blue' >" + topic + "<h1>");
             Console.WriteLine("How many paragraphs of content  do you want to write");
            int n =int.Parse(Console.ReadLine());
 
@@ -30,7 +30,7 @@ namespace StreamAssignment
                     count++;
                     Console.WriteLine("Paragraph"+count);
                 string  content =  Console.ReadLine()  ;
-                    string me = "<h4>" + content + "</h4>";
+                    string me = "<p style= 'font-size: 15px ; font-weight: normal; text-align: center'>" + content + "</p>";
 
                     var list = new List<string>() { me };
                     File.AppendAllLines(path, list);
