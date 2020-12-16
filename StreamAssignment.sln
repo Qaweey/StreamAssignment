@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamAssignment", "StreamAssignment\StreamAssignment.csproj", "{D6BA6BF4-2078-4AAA-A202-68403557AD0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignment2", "assignment2\assignment2.csproj", "{A8357C87-F847-49F7-A2B0-E45BE663E105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6BA6BF4-2078-4AAA-A202-68403557AD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BA6BF4-2078-4AAA-A202-68403557AD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BA6BF4-2078-4AAA-A202-68403557AD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BA6BF4-2078-4AAA-A202-68403557AD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8357C87-F847-49F7-A2B0-E45BE663E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8357C87-F847-49F7-A2B0-E45BE663E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8357C87-F847-49F7-A2B0-E45BE663E105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8357C87-F847-49F7-A2B0-E45BE663E105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7870792A-12F2-4B7E-9728-0EC625F8282C}
+	EndGlobalSection
+EndGlobal
